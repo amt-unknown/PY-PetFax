@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/style.css" rel="stylesheet">
+    <title>PetFax | Pets</title>
+</head>
+<body>
+    <div class="container">
+        <h1>PetFax</h1>
+        <div class="callout">If you have a new fact, fill out the form below!</div>
+        <div class="facts-container">
+            <form action="" method="post" class="new_fact_form">
+                <div class="new_fact_form_input">
+                    <label for="name">Enter the pets name:</label>
+                    <input type="text" name="name" id="name" required/>
+                </div>
+                <div class="new_fact_form_input">
+                    <label for="fact">Enter an interesting fact:</label>
+                    <input type="text" name="fact" id="fact" required/>
+                </div>
+                <div class="new_fact_form_input">
+                    <input type="submit" value="Post new pet fact"/>
+                </div>
+            </form>
+            <a href="/pets">Go Back...</a>
+        </div>
+    </div>
+</body>
+</html>
